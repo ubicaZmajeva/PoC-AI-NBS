@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{681FBA7C-6E5A-45A1-A4BD-569EFBF5EE44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiComplaintAssistant", "AiComplaintAssistant\AiComplaintAssistant.csproj", "{9CFAE884-71E7-437D-B663-96097AB8ECD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiComplaintAssistant.Api", "AiComplaintAssistant.Api\AiComplaintAssistant.Api.csproj", "{A67BCB65-E7A9-4830-8361-96EC8A28155F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CFAE884-71E7-437D-B663-96097AB8ECD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CFAE884-71E7-437D-B663-96097AB8ECD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CFAE884-71E7-437D-B663-96097AB8ECD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CFAE884-71E7-437D-B663-96097AB8ECD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A67BCB65-E7A9-4830-8361-96EC8A28155F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A67BCB65-E7A9-4830-8361-96EC8A28155F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A67BCB65-E7A9-4830-8361-96EC8A28155F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A67BCB65-E7A9-4830-8361-96EC8A28155F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

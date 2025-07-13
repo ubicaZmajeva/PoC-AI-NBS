@@ -1,0 +1,62 @@
+﻿@inherits LayoutComponentBase
+
+<MudThemeProvider Theme="_theme" />
+<MudPopoverProvider />
+<MudDialogProvider FullWidth="true" MaxWidth="MaxWidth.Small"
+                   CloseButton="true"
+                   Position="DialogPosition.Center"
+                   CloseOnEscapeKey="true" />
+<MudSnackbarProvider />
+
+<MudLayout>
+    <MudAppBar Elevation="20">
+        <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" id="nav-toggle"
+                       Title="Toggle navigation sidebar"
+                       Size="Size.Large" Edge="Edge.Start" OnClick="@OnMenuClicked" />
+    </MudAppBar>
+    
+    <MudDrawer @bind-Open="_drawerOpen"
+               Elevation="5"
+               Width="300px"
+               Id="drawer">
+        <MudDrawerHeader Class="d-flex justify-center pt-4">
+            <MudImage Src="favicon.jpeg"
+                      Class="rounded filter-shadow"
+                      Alt="Algotech"
+                      Width="100"
+                      Height="100"
+                      Elevation="0" />
+        </MudDrawerHeader>
+
+        <MudPaper Class="mx-3 my-2 px-3 py-2" Elevation="0">
+            <MudText Typo="Typo.h6" GutterBottom="true">
+                Technical Demonstrator
+            </MudText>
+
+            <MudText Typo="Typo.body1" Class="mt-3">
+                This application is a Proof of Concept (PoC) created to explore specific features, architectural approaches, or integrations. It is not designed or intended for production deployment.
+            </MudText>
+
+            <MudText Typo="Typo.body1" Class="mt-3">
+                Some functionalities may be incomplete, contain bugs, or use hardcoded values. Security, performance, scalability, and compliance have not been fully addressed in this version.
+            </MudText>
+
+            <MudText Typo="Typo.body1" Class="mt-3">
+                Please do not use this demonstrator with real production data or in critical environments. Feedback and suggestions are welcome as we explore and evaluate potential directions.
+            </MudText>
+
+            <MudDivider Class="my-4" />
+
+            <MudText Typo="Typo.caption">
+                © 2025 Algotech – Internal Use Only
+            </MudText>
+        </MudPaper>
+    </MudDrawer>
+    
+    <MudMainContent>
+        <MudContainer MaxWidth="MaxWidth.Large" Fixed="false" Class="my-6 pt-6">
+            @Body
+        </MudContainer>
+
+    </MudMainContent>
+</MudLayout>

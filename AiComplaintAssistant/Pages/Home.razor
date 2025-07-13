@@ -1,0 +1,133 @@
+﻿@page "/"
+<PageTitle>Complaint Analysis</PageTitle>
+
+<MudPaper Class="pa-4">
+    
+    <MudOverlay Visible="_loading" DarkBackground="true" ZIndex="10">
+        <div class="d-flex justify-center align-center" style="height:100%">
+            <MudProgressCircular Color="Color.Primary" Size="Size.Large" Indeterminate="true" />
+        </div>
+    </MudOverlay>
+    
+    @if (_currentStep == 0)
+    {
+        <MudText Typo="Typo.h6" Class="mb-4">Step 1: Email Details</MudText>
+        <MudForm @ref="form" @bind-IsValid="_isValid">
+            <MudTextField T="string"
+                          Label="Email Address"
+                          @bind-Value="_emailComplaint.EmailAddress"
+                          Required="true"
+                          RequiredError="Email address is required"/>
+
+            <MudTextField T="string"
+                          Label="Subject"
+                          @bind-Value="_emailComplaint.Subject"
+                          Required="true"
+                          RequiredError="Subject is required"
+                          Class="mt-3"/>
+
+            <MudTextField T="string"
+                          Label="Content"
+                          @bind-Value="_emailComplaint.Content"
+                          Required="true"
+                          RequiredError="Content is required"
+                          Lines="25"
+                          Class="mt-3"/>
+
+            <MudButton Variant="Variant.Filled"
+                       Color="Color.Primary"
+                       OnClick="AnalyzeEmail"
+                       Disabled="!_isValid"
+                       Class="mt-4">
+                Analyze
+            </MudButton>
+        </MudForm>
+    }
+
+    @if (_currentStep == 1)
+    {
+        <MudText Typo="Typo.h6">Step 2: Classification</MudText>
+
+        <!-- Level 1 -->
+        <MudSelect T="string" Label="Category" @bind-Value="_selectedLevel1Id" Class="mt-3" Dense="true" SelectedValuesChanged="Value1Changed">
+            @foreach (var item in _level1Options)
+            {
+                <MudSelectItem Value="@item.Id">@item.Name</MudSelectItem>
+            }
+        </MudSelect>
+
+        <!-- Level 2 -->
+        @if (_level2Options.Any())
+        {
+            <MudSelect T="string" Label="Subcategory" @bind-Value="_selectedLevel2Id" Class="mt-3" Dense="true" SelectedValuesChanged="Value2Changed">
+                @foreach (var item in _level2Options)
+                {
+                    <MudSelectItem Value="@item.Id">@item.Name</MudSelectItem>
+                }
+            </MudSelect>
+        }
+
+        <!-- Level 3 -->
+        @if (_level3Options.Any())
+        {
+            <MudSelect T="string" Label="Detail" @bind-Value="_selectedLevel3Id" Class="mt-3" Dense="true">
+                @foreach (var item in _level3Options)
+                {
+                    <MudSelectItem Value="@item.Id">@item.Name</MudSelectItem>
+                }
+            </MudSelect>
+        }
+
+        <div class="mt-4">
+            <MudButton Variant="Variant.Filled"
+                       Color="Color.Primary"
+                       Disabled="@string.IsNullOrEmpty(_selectedLevel3Id)"
+                       OnClick="GenerateDraft">
+                Continue to Resolution
+            </MudButton>
+
+            <MudButton Variant="Variant.Outlined"
+                       Color="Color.Secondary"
+                       OnClick="ResetWizard"
+                       Class="ml-2">
+                Reset Wizard
+            </MudButton>
+        </div>
+    }
+
+    @if (_currentStep == 2)
+    {
+        <MudText Typo="Typo.h6">Step 3: AI-Suggested Resolution</MudText>
+
+        <MudTextField T="string"
+                      Label="Content"
+                      @bind-Value="_responseDraft"
+                      Required="true"
+                      RequiredError="Content is required"
+                      Lines="25"
+                      Class="mt-3"
+                      TextArea="true"/>
+
+        <MudTextField T="string"
+                      Label="Optional Prompt"
+                      @bind-Value="_userPrompt"
+                      Class="mt-4"
+                      FullWidth="true"/>
+
+        <MudButton Variant="Variant.Outlined"
+                   Color="Color.Primary"
+                   OnClick="ApplySuggestion"
+                   Class="mt-2">
+            Regenerate Suggestion
+        </MudButton>
+
+        <MudDivider Class="my-4"/>
+
+        <MudButton Variant="Variant.Filled"
+                   Color="Color.Secondary"
+                   OnClick="ResetWizard">
+            Start New Analysis
+        </MudButton>
+    }
+</MudPaper>
+

@@ -1,0 +1,596 @@
+[
+  {
+    "id": "111",
+    "name": "Krediti - Gotovinski krediti GK - Valutna klauzula"
+  },
+  {
+    "id": "112",
+    "name": "Krediti - Gotovinski krediti GK - Tip kursa koji se primenjuje"
+  },
+  {
+    "id": "113",
+    "name": "Krediti - Gotovinski krediti GK - Revalorizacija"
+  },
+  {
+    "id": "114",
+    "name": "Krediti - Gotovinski krediti GK - Refinansiranje"
+  },
+  {
+    "id": "115",
+    "name": "Krediti - Gotovinski krediti GK - Prevremena otplata"
+  },
+  {
+    "id": "116",
+    "name": "Krediti - Gotovinski krediti GK - Konverzija u drugu valutu"
+  },
+  {
+    "id": "117",
+    "name": "Krediti - Gotovinski krediti GK - Odustanak od ugovora"
+  },
+  {
+    "id": "118",
+    "name": "Krediti - Gotovinski krediti GK - Raskid ugovora"
+  },
+  {
+    "id": "119",
+    "name": "Krediti - Gotovinski krediti GK - Obracun"
+  },
+  {
+    "id": "1110",
+    "name": "Krediti - Gotovinski krediti GK - Odbijanje zahteva za kredit"
+  },
+  {
+    "id": "1111",
+    "name": "Krediti - Gotovinski krediti GK - Docnja"
+  },
+  {
+    "id": "1112",
+    "name": "Krediti - Gotovinski krediti GK - Redovna kamata (metod, iznos…)"
+  },
+  {
+    "id": "1113",
+    "name": "Krediti - Gotovinski krediti GK - Kamatna stopa"
+  },
+  {
+    "id": "1114",
+    "name": "Krediti - Gotovinski krediti GK - Zatezna kamata"
+  },
+  {
+    "id": "1115",
+    "name": "Krediti - Gotovinski krediti GK - Efektivna kamatna stopa"
+  },
+  {
+    "id": "1116",
+    "name": "Krediti - Gotovinski krediti GK - Naknade (koje banka naplacuje u svoje ime)"
+  },
+  {
+    "id": "1117",
+    "name": "Krediti - Gotovinski krediti GK - Troskovi (koji se naplacuju u ime i/ili za racun drugog lica)"
+  },
+  {
+    "id": "1118",
+    "name": "Krediti - Gotovinski krediti GK - Hipoteka"
+  },
+  {
+    "id": "1119",
+    "name": "Krediti - Gotovinski krediti GK - Zaloga"
+  },
+  {
+    "id": "1120",
+    "name": "Krediti - Gotovinski krediti GK - Menica"
+  },
+  {
+    "id": "1121",
+    "name": "Krediti - Gotovinski krediti GK - Administrativna zabrana"
+  },
+  {
+    "id": "1122",
+    "name": "Krediti - Gotovinski krediti GK - Osiguranje"
+  },
+  {
+    "id": "1123",
+    "name": "Krediti - Gotovinski krediti GK - Postupanje banke po osnovu osiguranja"
+  },
+  {
+    "id": "1124",
+    "name": "Krediti - Gotovinski krediti GK - Postupanje osiguravajuce kuce"
+  },
+  {
+    "id": "121",
+    "name": "Krediti - Krediti za refinansiranje KR - Informacije pre zakljucenja ugovora"
+  },
+  {
+    "id": "122",
+    "name": "Krediti - Krediti za refinansiranje KR - Uslovi u vezi sa kreditom"
+  },
+  {
+    "id": "123",
+    "name": "Krediti - Krediti za refinansiranje KR - Prava korisnika kredita"
+  },
+  {
+    "id": "124",
+    "name": "Krediti - Krediti za refinansiranje KR - Obaveze korisnika kredita"
+  },
+  {
+    "id": "125",
+    "name": "Krediti - Krediti za refinansiranje KR - Obaveze banke"
+  },
+  {
+    "id": "126",
+    "name": "Krediti - Krediti za refinansiranje KR - Zavrsni racun"
+  },
+  {
+    "id": "127",
+    "name": "Krediti - Krediti za refinansiranje KR - Komunikacija sa bankom"
+  },
+  {
+    "id": "128",
+    "name": "Krediti - Krediti za refinansiranje KR - Raskid ugovora"
+  },
+  {
+    "id": "129",
+    "name": "Krediti - Krediti za refinansiranje KR - Obracun"
+  },
+  {
+    "id": "1210",
+    "name": "Krediti - Krediti za refinansiranje KR - Odbijanje zahteva za kredit"
+  },
+  {
+    "id": "1211",
+    "name": "Krediti - Krediti za refinansiranje KR - Docnja"
+  },
+  {
+    "id": "1212",
+    "name": "Krediti - Krediti za refinansiranje KR - Kamate i troskovi"
+  },
+  {
+    "id": "1213",
+    "name": "Krediti - Krediti za refinansiranje KR - Obezbedjenje kredita"
+  },
+  {
+    "id": "1214",
+    "name": "Krediti - Krediti za refinansiranje KR - Menica"
+  },
+  {
+    "id": "1215",
+    "name": "Krediti - Krediti za refinansiranje KR - Osiguranje"
+  },
+  {
+    "id": "1216",
+    "name": "Krediti - Krediti za refinansiranje KR - Postupanje po osnovu osiguranja"
+  },
+
+  {
+    "id": "1217",
+    "name": "Krediti - Krediti za refinansiranje KR - Postupanje osiguravajuce kuce"
+  },
+  {
+    "id": "131",
+    "name": "Krediti - Stambeni krediti SK - Informacije pre zakljucenja ugovora"
+  },
+  {
+    "id": "132",
+    "name": "Krediti - Stambeni krediti SK - Uslovi u vezi sa kreditom"
+  },
+  {
+    "id": "133",
+    "name": "Krediti - Stambeni krediti SK - Prava korisnika kredita"
+  },
+  {
+    "id": "134",
+    "name": "Krediti - Stambeni krediti SK - Obaveze korisnika kredita"
+  },
+  {
+    "id": "135",
+    "name": "Krediti - Stambeni krediti SK - Obaveze banke"
+  },
+  {
+    "id": "136",
+    "name": "Krediti - Stambeni krediti SK - Zavrsni racun"
+  },
+  {
+    "id": "137",
+    "name": "Krediti - Stambeni krediti SK - Komunikacija sa bankom"
+  },
+  {
+    "id": "138",
+    "name": "Krediti - Stambeni krediti SK - Raskid ugovora"
+  },
+  {
+    "id": "139",
+    "name": "Krediti - Stambeni krediti SK - Obracun"
+  },
+  {
+    "id": "1310",
+    "name": "Krediti - Stambeni krediti SK - Odbijanje zahteva za kredit"
+  },
+  {
+    "id": "1311",
+    "name": "Krediti - Stambeni krediti SK - Docnja"
+  },
+  {
+    "id": "1312",
+    "name": "Krediti - Stambeni krediti SK - Kamate i troskovi"
+  },
+  {
+    "id": "1313",
+    "name": "Krediti - Stambeni krediti SK - Obezbedjenje kredita"
+  },
+  {
+    "id": "1314",
+    "name": "Krediti - Stambeni krediti SK - Menica"
+  },
+  {
+    "id": "1315",
+    "name": "Krediti - Stambeni krediti SK - Osiguranje"
+  },
+  {
+    "id": "1316",
+    "name": "Krediti - Stambeni krediti SK - Postupanje po osnovu osiguranja"
+  },
+  {
+    "id": "1317",
+    "name": "Krediti - Stambeni krediti SK - Postupanje osiguravajuce kuce"
+  },
+  {
+    "id": "141",
+    "name": "Krediti - Ostali krediti OK - Informacije pre zakljucenja ugovora"
+  },
+  {
+    "id": "142",
+    "name": "Krediti - Ostali krediti OK - Uslovi u vezi sa kreditom"
+  },
+  {
+    "id": "143",
+    "name": "Krediti - Ostali krediti OK - Prava korisnika kredita"
+  },
+  {
+    "id": "144",
+    "name": "Krediti - Ostali krediti OK - Obaveze korisnika kredita"
+  },
+  {
+    "id": "145",
+    "name": "Krediti - Ostali krediti OK - Obaveze banke"
+  },
+  {
+    "id": "146",
+    "name": "Krediti - Ostali krediti OK - Zavrsni racun"
+  },
+  {
+    "id": "147",
+    "name": "Krediti - Ostali krediti OK - Komunikacija sa bankom"
+  },
+  {
+    "id": "148",
+    "name": "Krediti - Ostali krediti OK - Raskid ugovora"
+  },
+  {
+    "id": "149",
+    "name": "Krediti - Ostali krediti OK - Obracun"
+  },
+  {
+    "id": "1410",
+    "name": "Krediti - Ostali krediti OK - Odbijanje zahteva za kredit"
+  },
+  {
+    "id": "1411",
+    "name": "Krediti - Ostali krediti OK - Docnja"
+  },
+  {
+    "id": "1412",
+    "name": "Krediti - Ostali krediti OK - Kamate i troskovi"
+  },
+  {
+    "id": "1413",
+    "name": "Krediti - Ostali krediti OK - Obezbedjenje kredita"
+  },
+  {
+    "id": "1414",
+    "name": "Krediti - Ostali krediti OK - Menica"
+  },
+  {
+    "id": "1415",
+    "name": "Krediti - Ostali krediti OK - Osiguranje"
+  },
+  {
+    "id": "1416",
+    "name": "Krediti - Ostali krediti OK - Postupanje po osnovu osiguranja"
+  },
+  {
+    "id": "1417",
+    "name": "Krediti - Ostali krediti OK - Postupanje osiguravajuce kuce"
+  },
+  {
+    "id": "151",
+    "name": "Krediti - Kreditne kartice KC - Izdavanje kartice"
+  },
+  {
+    "id": "152",
+    "name": "Krediti - Kreditne kartice KC - Aktivacija kartice"
+  },
+  {
+    "id": "153",
+    "name": "Krediti - Kreditne kartice KC - Ogranicenje po kartici"
+  },
+  {
+    "id": "154",
+    "name": "Krediti - Kreditne kartice KC - Nacin otplate"
+  },
+  {
+    "id": "155",
+    "name": "Krediti - Kreditne kartice KC - Kamate"
+  },
+  {
+    "id": "156",
+    "name": "Krediti - Kreditne kartice KC - Naknade i troskovi"
+  },
+  {
+    "id": "157",
+    "name": "Krediti - Kreditne kartice KC - Zastita korisnika"
+  },
+  {
+    "id": "158",
+    "name": "Krediti - Kreditne kartice KC - Prigovor na transakciju"
+  },
+  {
+    "id": "159",
+    "name": "Krediti - Kreditne kartice KC - Vracanje sredstava"
+  },
+  {
+    "id": "1510",
+    "name": "Krediti - Kreditne kartice KC - Blokada kartice"
+  },
+  {
+    "id": "1511",
+    "name": "Krediti - Kreditne kartice KC - Raskid ugovora"
+  },
+  {
+    "id": "1512",
+    "name": "Krediti - Kreditne kartice KC - Obracun"
+  },
+  {
+    "id": "1513",
+    "name": "Krediti - Kreditne kartice KC - Docnja"
+  },
+  {
+    "id": "1514",
+    "name": "Krediti - Kreditne kartice KC - Menica"
+  },
+  {
+    "id": "1515",
+    "name": "Krediti - Kreditne kartice KC - Osiguranje"
+  },
+  {
+    "id": "1516",
+    "name": "Krediti - Kreditne kartice KC - Postupanje po osnovu osiguranja"
+  },
+  {
+    "id": "1517",
+    "name": "Krediti - Kreditne kartice KC - Postupanje osiguravajuce kuce"
+  },
+
+  {
+    "id": "211",
+    "name": "Tekući računi TR - Otvaranje tekućeg računa"
+  },
+  {
+    "id": "212",
+    "name": "Tekući računi TR - Vođenje tekućeg računa"
+  },
+  {
+    "id": "213",
+    "name": "Tekući računi TR - Zatvaranje tekućeg računa"
+  },
+  {
+    "id": "214",
+    "name": "Tekući računi TR - Promena ugovornih uslova"
+  },
+  {
+    "id": "215",
+    "name": "Tekući računi TR - Povraćaj sredstava"
+  },
+  {
+    "id": "216",
+    "name": "Tekući računi TR - Pristup elektronskom i mobilnom bankarstvu"
+  },
+  {
+    "id": "217",
+    "name": "Tekući računi TR - Sigurnost i zloupotreba računa"
+  },
+  {
+    "id": "218",
+    "name": "Tekući računi TR - Blokada sredstava"
+  },
+  {
+    "id": "219",
+    "name": "Tekući računi TR - Prenos sredstava"
+  },
+  {
+    "id": "2110",
+    "name": "Tekući računi TR - Kamate, naknade i troškovi"
+  },
+  {
+    "id": "2111",
+    "name": "Tekući računi TR - Prava korisnika"
+  },
+  {
+    "id": "2112",
+    "name": "Tekući računi TR - Obaveze korisnika"
+  },
+  {
+    "id": "2113",
+    "name": "Tekući računi TR - Obaveze banke"
+  },
+  {
+    "id": "221",
+    "name": "Platne kartice PK - Izdavanje platne kartice"
+  },
+  {
+    "id": "222",
+    "name": "Platne kartice PK - Aktivacija platne kartice"
+  },
+  {
+    "id": "223",
+    "name": "Platne kartice PK - Ograničenja i limit kartice"
+  },
+  {
+    "id": "224",
+    "name": "Platne kartice PK - Korišćenje kartice u zemlji i inostranstvu"
+  },
+  {
+    "id": "225",
+    "name": "Platne kartice PK - Zloupotreba i sigurnost"
+  },
+  {
+    "id": "226",
+    "name": "Platne kartice PK - Raskid ugovora"
+  },
+  {
+    "id": "227",
+    "name": "Platne kartice PK - Kamate, naknade i troškovi"
+  },
+  {
+    "id": "228",
+    "name": "Platne kartice PK - Prava i obaveze korisnika"
+  },
+  {
+    "id": "229",
+    "name": "Platne kartice PK - Prigovor na transakciju"
+  },
+  {
+    "id": "231",
+    "name": "Elektronski novac EN - Izdavanje elektronskog novca"
+  },
+  {
+    "id": "232",
+    "name": "Elektronski novac EN - Prava korisnika"
+  },
+  {
+    "id": "233",
+    "name": "Elektronski novac EN - Raskid ugovora"
+  },
+  {
+    "id": "234",
+    "name": "Elektronski novac EN - Povraćaj sredstava"
+  },
+  {
+    "id": "241",
+    "name": "Platne usluge PU - Opšti uslovi pružanja"
+  },
+  {
+    "id": "242",
+    "name": "Platne usluge PU - Pokretanje i izvršenje naloga"
+  },
+  {
+    "id": "243",
+    "name": "Platne usluge PU - Povraćaj sredstava"
+  },
+  {
+    "id": "244",
+    "name": "Platne usluge PU - Opoziv platnog naloga"
+  },
+  {
+    "id": "245",
+    "name": "Platne usluge PU - Prava i obaveze korisnika"
+  },
+  {
+    "id": "246",
+    "name": "Platne usluge PU - Prava i obaveze pružaoca usluga"
+  },
+  {
+    "id": "247",
+    "name": "Platne usluge PU - Kamate, naknade i troškovi"
+  },
+  {
+    "id": "248",
+    "name": "Platne usluge PU - Povrede ugovora"
+  },
+  {
+    "id": "251",
+    "name": "Instant plaćanja IP - Opšti uslovi i dostupnost"
+  },
+  {
+    "id": "252",
+    "name": "Instant plaćanja IP - Izvršenje naloga"
+  },
+  {
+    "id": "253",
+    "name": "Instant plaćanja IP - Povraćaj sredstava"
+  },
+  {
+    "id": "254",
+    "name": "Instant plaćanja IP - Opoziv platnog naloga"
+  },
+  {
+    "id": "255",
+    "name": "Instant plaćanja IP - Naknade i troškovi"
+  },
+  {
+    "id": "311",
+    "name": "Štedni i drugi depoziti - Otvaranje štednog računa"
+  },
+  {
+    "id": "312",
+    "name": "Štedni i drugi depoziti - Uslovi oročenja"
+  },
+  {
+    "id": "313",
+    "name": "Štedni i drugi depoziti - Kamate"
+  },
+  {
+    "id": "314",
+    "name": "Štedni i drugi depoziti - Raskid ugovora"
+  },
+  {
+    "id": "315",
+    "name": "Štedni i drugi depoziti - Povraćaj sredstava"
+  },
+  {
+    "id": "321",
+    "name": "Menjački poslovi - Menjački kurs"
+  },
+  {
+    "id": "322",
+    "name": "Menjački poslovi - Naknade"
+  },
+  {
+    "id": "331",
+    "name": "Osiguranje depozita - Isplata osiguranih iznosa"
+  },
+  {
+    "id": "332",
+    "name": "Osiguranje depozita - Pravo na osiguranje"
+  },
+  {
+    "id": "411",
+    "name": "Prigovori u vezi sa štednjom u CHF - Ugovoreni uslovi"
+  },
+  {
+    "id": "412",
+    "name": "Prigovori u vezi sa štednjom u CHF - Postupanje banke"
+  },
+  {
+    "id": "421",
+    "name": "Ostalo - Neprimereno ponašanje zaposlenih"
+  },
+  {
+    "id": "422",
+    "name": "Ostalo - Postupanje banke mimo zakonskih ovlašćenja"
+  },
+  {
+    "id": "423",
+    "name": "Ostalo - Postupanje banke u vezi sa prinudnom naplatom"
+  },
+  {
+    "id": "424",
+    "name": "Ostalo - Povreda ugovora ili zakona"
+  },
+  {
+    "id": "425",
+    "name": "Ostalo - Neodgovaranje na zahtev/pitanje klijenta"
+  }
+]
+  
+
+
+
